@@ -25,7 +25,6 @@ class Plugin
 
   public function register()
   {
-    (new ProductHandler($this->_context))->register();
     (new Assets($this->_context))->register();
   }
 
